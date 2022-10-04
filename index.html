@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top px-5">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="d-flex">
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#featureSection">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ourServices">Services</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Contact
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#contactForm">junk1ord</a></li>
+                                <li><a class="dropdown-item" href="#contactForm">junk1ord</a></li>
+                                <li><a class="dropdown-item" href="#contactForm">junk1ord</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- column sectioning (HERO SECTION)-->
+    <div class="container d-flex jusify-content-center align-items-center" style="height:100vh">
+        <div class="row d-flex jusify-content-center align-items-center">
+            <div class="col-6">
+                <h1 class="mb-3" style="font-size: 5rem;">Catchy Title</h1>
+                <h3 class="mb-5">Jabar dasti ka tagline but thoda chota ho gaya toh bhujvasu</h3>
+                <button type="button" class="btn btn-outline-secondary btn-lg mt-3">Secondary</button>
+                <button type="button" class="btn btn-outline-info btn-lg mt-3 ms-3">Info</button>
+            </div>
+            <div class="col-6 text-center">
+                <img class="w-100"
+                    src="https://img.freepik.com/free-vector/data-inform-illustration-concept_114360-864.jpg?w=1060&t=st=1664825380~exp=1664825980~hmac=4551c914d23cbaae42a84fa5747cb6114fda642104a7f585317aea3bf3c8afb5"
+                    alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-dark fixed-bottom text-light">
+        <center class="my-1">Mind this</center>
+    </div>
+
+
+    <div class="container" id="featureSection">
+        <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+            <div class="d-flex flex-column align-items-start gap-2">
+                <h3 class="fw-bold">Left-aligned title explaining these awesome features</h3>
+                <p class="text-muted">Paragraph of text beneath the heading to explain the heading. We'll add onto it
+                    with another sentence and probably just keep going until we run out of words.</p>
+                <a href="#" class="btn btn-dark btn-lg">Primary button</a>
+            </div>
+            <div class="row row-cols-1 row-cols-sm-2 g-4">
+                <div class="d-flex flex-column gap-2">
+                    <div class=" fs-4 rounded-3">
+                        <img src="https://cdn-icons-png.flaticon.com/512/724/724979.png" style="height: 1em;" alt=""
+                            srcset="">
+                    </div>
+                    <h4 class="fw-semibold mb-0">Featured title</h4>
+                    <p class="text-muted">Paragraph of text beneath the heading to explain the heading.</p>
+                </div>
+                <div class="d-flex flex-column gap-2">
+                    <div class=" fs-4 rounded-3">
+                        <img src="https://cdn-icons-png.flaticon.com/512/6662/6662934.png" style="height: 1em;" alt=""
+                            srcset="">
+                    </div>
+                    <h4 class="fw-semibold mb-0">Featured title</h4>
+                    <p class="text-muted">Paragraph of text beneath the heading to explain the heading.</p>
+                </div>
+                <div class="d-flex flex-column gap-2">
+                    <div class=" fs-4 rounded-3">
+                        <img src="https://cdn-icons-png.flaticon.com/512/724/724979.png" style="height: 1em;" alt=""
+                            srcset="">
+                    </div>
+                    <h4 class="fw-semibold mb-0">Featured title</h4>
+                    <p class="text-muted">Paragraph of text beneath the heading to explain the heading.</p>
+                </div>
+                <div class="d-flex flex-column gap-2">
+                    <div class=" fs-4 rounded-3">
+                        <img src="https://cdn-icons-png.flaticon.com/512/724/724979.png" style="height: 1em;" alt=""
+                            srcset="">
+                    </div>
+                    <h4 class="fw-semibold mb-0">Featured title</h4>
+                    <p class="text-muted">Paragraph of text beneath the heading to explain the heading.</p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container py-5">
+        <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active fs-3" id="features-tab" data-bs-toggle="tab"
+                    data-bs-target="#features-tab-pane" type="button" role="tab" aria-controls="features-tab-pane"
+                    aria-selected="true">Features</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link fs-3" id="scope-tab" data-bs-toggle="tab" data-bs-target="#scope-tab-pane"
+                    type="button" role="tab" aria-controls="scope-tab-pane" aria-selected="false">Scope</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link fs-3" id="implementation-tab" data-bs-toggle="tab"
+                    data-bs-target="#implementation-tab-pane" type="button" role="tab"
+                    aria-controls="implementation-tab-pane" aria-selected="false">Integration</button>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="features-tab-pane" role="tabpanel"
+                aria-labelledby="features-tab">
+                <!-- cards slide -->
+                <div class="card-group my-3">
+                    <div class="card">
+                        <img src="https://img.freepik.com/free-vector/business-conference-corporate-presentation-female-speaker-flat-character-with-empty-speech-bubbles-political-debates-professor-seminar-concept-illustration_335657-1739.jpg?w=740&t=st=1664835709~exp=1664836309~hmac=9241961aecd7e85692e3620a5b807798648a2e2f4edd97aedde5877297a90160"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Feature 1</h5>
+                            <p class="card-text">Our model will be able to detect speech emotion and guage the
+                                situation, given the audio input.</p>
+                            <p class="card-text"><small class="text-muted">Coming soon...</small></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="https://img.freepik.com/free-vector/couple-talking-avatars-characters_24877-56197.jpg?w=740&t=st=1664835974~exp=1664836574~hmac=8fc754ae583ef54603fc262848d1fedb5a7c82bdc9ece232837b2be7e188c0db"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Feature 2</h5>
+                            <p class="card-text">NLP for speaker identification.</p>
+                            <p class="card-text"><small class="text-muted">Coming soon...</small></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="https://img.freepik.com/free-vector/call-center-concept-illustration_114360-2045.jpg?w=740&t=st=1664836059~exp=1664836659~hmac=4c7b18a9388a5030db5bc27f165ad7d427f9f9df94671896f6f9daf0c7129a69"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Feature 3</h5>
+                            <p class="card-text">The model will be able to categorize conversations as well as calls for
+                                insights and KPIs.</p>
+                            <p class="card-text"><small class="text-muted">Coming soon...</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="scope-tab-pane" role="tabpanel" aria-labelledby="scope-tab" tabindex="0">
+                <div class="container mt-5 ">
+                    <div class="row">
+                        <div class="col-4 text-center">
+                            <!-- style="height:8rem;" -->
+                            <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt=""
+                                style="height:8rem;">
+                        </div>
+                        <div class="col-4 text-center">
+                            <img src="https://cdn-icons-png.flaticon.com/512/300/300221.png" alt=""
+                                style="height:8rem;">
+                        </div>
+                        <div class="col-4 text-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" style="height:8rem;">
+                                <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                <path
+                                    d="M180.41 203.01c-.72 22.65 10.6 32.68 10.88 39.05a8.164 8.164 0 0 1-4.1 6.27l-12.8 8.96a10.66 10.66 0 0 1-5.63 1.92c-.43-.02-8.19 1.83-20.48-25.61a78.608 78.608 0 0 1-62.61 29.45c-16.28.89-60.4-9.24-58.13-56.21-1.59-38.28 34.06-62.06 70.93-60.05 7.1.02 21.6.37 46.99 6.27v-15.62c2.69-26.46-14.7-46.99-44.81-43.91-2.4.01-19.4-.5-45.84 10.11-7.36 3.38-8.3 2.82-10.75 2.82-7.41 0-4.36-21.48-2.94-24.2 5.21-6.4 35.86-18.35 65.94-18.18a76.857 76.857 0 0 1 55.69 17.28 70.285 70.285 0 0 1 17.67 52.36l-.01 69.29zM93.99 235.4c32.43-.47 46.16-19.97 49.29-30.47 2.46-10.05 2.05-16.41 2.05-27.4-9.67-2.32-23.59-4.85-39.56-4.87-15.15-1.14-42.82 5.63-41.74 32.26-1.24 16.79 11.12 31.4 29.96 30.48zm170.92 23.05c-7.86.72-11.52-4.86-12.68-10.37l-49.8-164.65c-.97-2.78-1.61-5.65-1.92-8.58a4.61 4.61 0 0 1 3.86-5.25c.24-.04-2.13 0 22.25 0 8.78-.88 11.64 6.03 12.55 10.37l35.72 140.83 33.16-140.83c.53-3.22 2.94-11.07 12.8-10.24h17.16c2.17-.18 11.11-.5 12.68 10.37l33.42 142.63L420.98 80.1c.48-2.18 2.72-11.37 12.68-10.37h19.72c.85-.13 6.15-.81 5.25 8.58-.43 1.85 3.41-10.66-52.75 169.9-1.15 5.51-4.82 11.09-12.68 10.37h-18.69c-10.94 1.15-12.51-9.66-12.68-10.75L328.67 110.7l-32.78 136.99c-.16 1.09-1.73 11.9-12.68 10.75h-18.3zm273.48 5.63c-5.88.01-33.92-.3-57.36-12.29a12.802 12.802 0 0 1-7.81-11.91v-10.75c0-8.45 6.2-6.9 8.83-5.89 10.04 4.06 16.48 7.14 28.81 9.6 36.65 7.53 52.77-2.3 56.72-4.48 13.15-7.81 14.19-25.68 5.25-34.95-10.48-8.79-15.48-9.12-53.13-21-4.64-1.29-43.7-13.61-43.79-52.36-.61-28.24 25.05-56.18 69.52-55.95 12.67-.01 46.43 4.13 55.57 15.62 1.35 2.09 2.02 4.55 1.92 7.04v10.11c0 4.44-1.62 6.66-4.87 6.66-7.71-.86-21.39-11.17-49.16-10.75-6.89-.36-39.89.91-38.41 24.97-.43 18.96 26.61 26.07 29.7 26.89 36.46 10.97 48.65 12.79 63.12 29.58 17.14 22.25 7.9 48.3 4.35 55.44-19.08 37.49-68.42 34.44-69.26 34.42zm40.2 104.86c-70.03 51.72-171.69 79.25-258.49 79.25A469.127 469.127 0 0 1 2.83 327.46c-6.53-5.89-.77-13.96 7.17-9.47a637.37 637.37 0 0 0 316.88 84.12 630.22 630.22 0 0 0 241.59-49.55c11.78-5 21.77 7.8 10.12 16.38zm29.19-33.29c-8.96-11.52-59.28-5.38-81.81-2.69-6.79.77-7.94-5.12-1.79-9.47 40.07-28.17 105.88-20.1 113.44-10.63 7.55 9.47-2.05 75.41-39.56 106.91-5.76 4.87-11.27 2.3-8.71-4.1 8.44-21.25 27.39-68.49 18.43-80.02z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="row"></div>
+                </div>
+                <div class="row mt-5 d-flex justify-content-around">
+                    <div class="col-4 text-center">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3670/3670147.png" alt="" style="height:8rem;">
+                    </div>
+                    <div class="col-4 text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" style="height:8rem;">
+                            <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                            <path
+                                d="M496 256c0 137-111.2 248-248.4 248-113.8 0-209.6-76.3-239-180.4l95.2 39.3c6.4 32.1 34.9 56.4 68.9 56.4 39.2 0 71.9-32.4 70.2-73.5l84.5-60.2c52.1 1.3 95.8-40.9 95.8-93.5 0-51.6-42-93.5-93.7-93.5s-93.7 42-93.7 93.5v1.2L176.6 279c-15.5-.9-30.7 3.4-43.5 12.1L0 236.1C10.2 108.4 117.1 8 247.6 8 384.8 8 496 119 496 256zM155.7 384.3l-30.5-12.6a52.79 52.79 0 0 0 27.2 25.8c26.9 11.2 57.8-1.6 69-28.4 5.4-13 5.5-27.3.1-40.3-5.4-13-15.5-23.2-28.5-28.6-12.9-5.4-26.7-5.2-38.9-.6l31.5 13c19.8 8.2 29.2 30.9 20.9 50.7-8.3 19.9-31 29.2-50.8 21zm173.8-129.9c-34.4 0-62.4-28-62.4-62.3s28-62.3 62.4-62.3 62.4 28 62.4 62.3-27.9 62.3-62.4 62.3zm.1-15.6c25.9 0 46.9-21 46.9-46.8 0-25.9-21-46.8-46.9-46.8s-46.9 21-46.9 46.8c.1 25.8 21.1 46.8 46.9 46.8z" />
+                        </svg>
+                    </div>
+
+                    <!-- https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJaRAgXx3mptJGAI5z-KJ3Rtjdm0hVpPvD_w&usqp=CAU -->
+                </div>
+            </div>
+            <div class="tab-pane fade" id="implementation-tab-pane" role="tabpanel" aria-labelledby="implementation-tab"
+                tabindex="0">
+                <div class="container text-center py-5">
+                    <h3>You can integrate this model in your project by hitting this link:</h3>
+                    <button type="button" class="btn btn-outline-success btn-lg my-5 px-4 fs-3">Demo!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center my-5" id="ourServices">
+        <div class="container px-4 py-5">
+            <h2 class="pb-2 border-bottom">Our Services</h2>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                <div class="col d-flex flex-column align-items-start">
+                    <div class="fs-2 mb-3">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2538/2538036.png" style="height: 1.5em;"
+                            alt="">
+                    </div>
+                    <h3 class="fs-2">Featured title</h3>
+                    <p style="text-align: justify;">Paragraph of text beneath the heading to explain the
+                        heading. We'll add onto it with another
+                        sentence and probably just keep going until we run out of words.</p>
+                    <a href="#" class="icon-link d-inline-flex align-items-center">
+                        Call to action
+                        <svg class="bi" width="1em" height="1em">
+                            <use xlink:href="#chevron-right" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="col d-flex flex-column align-items-start">
+                    <div class="fs-2 mb-3">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2538/2538036.png" style="height: 1.5em;"
+                            alt="">
+                    </div>
+                    <h3 class="fs-2">Featured title</h3>
+                    <p style="text-align: justify;">Paragraph of text beneath the heading to explain the
+                        heading. We'll add onto it with another
+                        sentence and probably just keep going until we run out of words.</p>
+                    <a href="#" class="icon-link d-inline-flex align-items-center">
+                        Call to action
+                        <svg class="bi" width="1em" height="1em">
+                            <use xlink:href="#chevron-right" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="col d-flex flex-column align-items-start">
+                    <div class="fs-2 mb-3">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2538/2538036.png" style="height: 1.5em;"
+                            alt="">
+                    </div>
+                    <h3 class="fs-2">Featured title</h3>
+                    <p style="text-align: justify;">Paragraph of text beneath the heading to explain the
+                        heading. We'll add onto it with another
+                        sentence and probably just keep going until we run out of words.</p>
+                    <a href="#" class="icon-link d-inline-flex align-items-center">
+                        Call to action
+                        <svg class="bi" width="1em" height="1em">
+                            <use xlink:href="#chevron-right" />
+                        </svg>
+                    </a>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container" id="contactForm">
+        <main>
+            <div class="py-5 text-center">
+                <img class="d-block mx-auto mb-4" src="https://cdn-icons-png.flaticon.com/512/2307/2307687.png" alt=""
+                    width="72" height="57">
+                <h2>Contact Us</h2>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptates optio,
+                    nam dolor deserunt officia aperiam, ipsam distinctio modi eveniet ratione ab aut nobis odit
+                    deleniti. Ducimus et reprehenderit voluptatum!</p>
+            </div>
+
+            <div class="row g-5">
+                <div class="col-md-5 col-lg-4 order-md-last">
+                    <img src="https://img.freepik.com/free-vector/hand-drawn-colorful-space-background_52683-12648.jpg?size=626&ext=jpg"
+                        alt="" style="width: 450px;">
+                </div>
+                <div class="col-md-7 col-lg-8">
+                    <h4 class="mb-3">Your Details</h4>
+                    <form class="needs-validation" novalidate>
+                        <div class="row g-3">
+                            <div class="col-sm-6">
+                                <label for="firstName" class="form-label">First name</label>
+                                <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                                <div class="invalid-feedback">
+                                    Valid first name is required.
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <label for="lastName" class="form-label">Last name</label>
+                                <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                                <div class="invalid-feedback">
+                                    Valid last name is required.
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <label for="username" class="form-label">Username</label>
+                                <div class="input-group has-validation">
+                                    <span class="input-group-text">@</span>
+                                    <input type="text" class="form-control" id="username" placeholder="Username"
+                                        required>
+                                    <div class="invalid-feedback">
+                                        Your username is required.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <label for="email" class="form-label">Email </label>
+                                <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                                <div class="invalid-feedback">
+                                    Please enter a valid email address for shipping updates.
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <label for="address" class="form-label">Message</label>
+                                <input type="text" class="form-control" id="address" placeholder="1234 Main St"
+                                    required>
+                                <div class="invalid-feedback">
+                                    Please enter your message
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <button class="w-50 mt-5 btn btn-primary btn-lg" type="submit">Contact Us!</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer class="my-5 pt-5 text-muted text-center text-small">
+        <p class="mb-1">&copy; 2022 BE Project Group 69</p>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="#">Privacy</a></li>
+            <li class="list-inline-item"><a href="#">Terms</a></li>
+            <li class="list-inline-item"><a href="#">Support</a></li>
+        </ul>
+    </footer>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
